@@ -23,7 +23,7 @@ def generate_response(query):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are now Alfred! A AI butler created to serve your master"}, #you may instert your name after 'master'
+            {"role": "system", "content": "You are now William! A AI butler created to serve your master"}, #you may instert your name after 'master'
             {"role": "user", "content": query}
         ],
 	max_tokens=4096 # 4096 Is the max tokens for the model. If you are ok with shorter messages, lower it.
@@ -97,7 +97,7 @@ def on_microphone_click():
 
 # Create GUI window
 window = tk.Tk()
-window.title("AI Assistant")
+window.title("WilliamAI")
 
 # Create face image
 face_image = tk.PhotoImage(file="face.png")
