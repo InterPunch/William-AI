@@ -1,2 +1,2 @@
 # Alfred-AI
-Public Version of AlfredAI. A python based AI butler
+A python based AI butler
